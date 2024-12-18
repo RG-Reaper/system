@@ -1,0 +1,459 @@
+Comprehensive System Diagnosis Report
+Generated on: 12/18/2024 14:02:15
+======================================
+=== Computer System Information ===
+
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : KERNELOS-PC
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+Caption                     : KERNELOS-PC
+Description                 : AT/AT COMPATIBLE
+InstallDate                 : 
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  : 
+PrimaryOwnerContact         : 
+PrimaryOwnerName            : KernelOS11 23H2 AiOv1.3.1 by k3rnelpan1c5750
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             : 
+LastLoadInfo                : 
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           : 
+BootOptionOnWatchDog        : 
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : -480
+DaylightInEffect            : False
+DNSHostName                 : KernelOS-PC
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : False
+InfraredSupported           : False
+Manufacturer                : ASUS
+Model                       : System Product Name
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 16
+NumberOfProcessors          : 1
+OEMLogoBitmap               : 
+OEMStringArray              : {Default string, Default string, GYPSUM, Default string...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 1
+PCSystemTypeEx              : 1
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   : 
+SystemFamily                : To be filled by O.E.M.
+SystemSKUNumber             : SKU
+SystemStartupDelay          : 
+SystemStartupOptions        : 
+SystemStartupSetting        : 
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 68616470528
+UserName                    : KERNELOS-PC\Administrator
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              : 
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+=== Operating System Information ===
+
+
+Status                                    : OK
+Name                                      : Microsoft Windows 11 Enterprise|C:\Windows|\Device\Harddisk0\Partition3
+FreePhysicalMemory                        : 56268804
+FreeSpaceInPagingFiles                    : 9339448
+FreeVirtualMemory                         : 64315724
+Caption                                   : Microsoft Windows 11 Enterprise
+Description                               : 
+InstallDate                               : 12/4/2024 9:05:16 PM
+CreationClassName                         : Win32_OperatingSystem
+CSCreationClassName                       : Win32_ComputerSystem
+CSName                                    : KERNELOS-PC
+CurrentTimeZone                           : -480
+Distributed                               : False
+LastBootUpTime                            : 12/5/2024 2:53:57 AM
+LocalDateTime                             : 12/18/2024 2:02:16 PM
+MaxNumberOfProcesses                      : 4294967295
+MaxProcessMemorySize                      : 137438953344
+NumberOfLicensedUsers                     : 0
+NumberOfProcesses                         : 122
+NumberOfUsers                             : 1
+OSType                                    : 18
+OtherTypeDescription                      : 
+SizeStoredInPagingFiles                   : 9437184
+TotalSwapSpaceSize                        : 
+TotalVirtualMemorySize                    : 76445456
+TotalVisibleMemorySize                    : 67008272
+Version                                   : 10.0.22631
+BootDevice                                : \Device\HarddiskVolume1
+BuildNumber                               : 22631
+BuildType                                 : Multiprocessor Free
+CodeSet                                   : 1252
+CountryCode                               : 1
+CSDVersion                                : 
+DataExecutionPrevention_32BitApplications : True
+DataExecutionPrevention_Available         : True
+DataExecutionPrevention_Drivers           : True
+DataExecutionPrevention_SupportPolicy     : 2
+Debug                                     : False
+EncryptionLevel                           : 256
+ForegroundApplicationBoost                : 2
+LargeSystemCache                          : 
+Locale                                    : 0409
+Manufacturer                              : Microsoft Corporation
+MUILanguages                              : {en-US}
+OperatingSystemSKU                        : 4
+Organization                              : https://dsc.gg/kernelos
+OSArchitecture                            : 64-bit
+OSLanguage                                : 1033
+OSProductSuite                            : 256
+PAEEnabled                                : 
+PlusProductID                             : 
+PlusVersionNumber                         : 
+PortableOperatingSystem                   : False
+Primary                                   : True
+ProductType                               : 1
+RegisteredUser                            : KernelOS11 23H2 AiOv1.3.1 by k3rnelpan1c5750
+SerialNumber                              : 00328-90000-00000-AAOEM
+ServicePackMajorVersion                   : 0
+ServicePackMinorVersion                   : 0
+SuiteMask                                 : 272
+SystemDevice                              : \Device\HarddiskVolume3
+SystemDirectory                           : C:\Windows\system32
+SystemDrive                               : C:
+WindowsDirectory                          : C:\Windows
+PSComputerName                            : 
+CimClass                                  : root/cimv2:Win32_OperatingSystem
+CimInstanceProperties                     : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                       : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+=== Processor Information ===
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 10
+DeviceID                                : CPU0
+ErrorCleared                            : 
+ErrorDescription                        : 
+LastErrorCode                           : 
+LoadPercentage                          : 
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 2048
+L2CacheSpeed                            : 
+MaxClockSpeed                           : 3792
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 
+SocketDesignation                       : LGA1200
+Version                                 : 
+VoltageCaps                             : 
+Caption                                 : Intel64 Family 6 Model 165 Stepping 5
+Description                             : Intel64 Family 6 Model 165 Stepping 5
+InstallDate                             : 
+Name                                    : Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+ConfigManagerErrorCode                  : 
+ConfigManagerUserConfig                 : 
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             : 
+PowerManagementCapabilities             : 
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : KERNELOS-PC
+CurrentClockSpeed                       : 3792
+Family                                  : 198
+OtherFamilyDescription                  : 
+Role                                    : CPU
+Stepping                                : 
+UniqueId                                : 
+UpgradeMethod                           : 1
+Architecture                            : 9
+AssetTag                                : To Be Filled By O.E.M.
+Characteristics                         : 252
+L3CacheSize                             : 16384
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 8
+NumberOfEnabledCore                     : 8
+NumberOfLogicalProcessors               : 16
+PartNumber                              : To Be Filled By O.E.M.
+ProcessorId                             : BFEBFBFF000A0655
+SecondLevelAddressTranslationExtensions : True
+SerialNumber                            : To Be Filled By O.E.M.
+ThreadCount                             : 16
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : True
+PSComputerName                          : 
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+=== Memory Information ===
+
+Manufacturer Speed    Capacity PartNumber           SerialNumber
+------------ -----    -------- ----------           ------------
+A-DATA        3200 17179869184 DDR4 3600            F0FA0300    
+A-DATA        3200 17179869184 DDR4 3600            8AFB0300    
+A-DATA        3200 17179869184 DDR4 3600            EBF70300    
+A-DATA        3200 17179869184 DDR4 3600            F7F70300    
+
+
+
+=== Disk Drive Information ===
+
+Manufacturer           Model                     InterfaceType MediaType                      Size
+------------           -----                     ------------- ---------                      ----
+(Standard disk drives) NVMe INTEL SSDPEKNW01     SCSI          Fixed hard disk media 1024203640320
+(Standard disk drives) General UDisk USB Device  USB           Removable Media          1003484160
+(Standard disk drives) PNY USB 2.0 FD USB Device USB           Removable Media         32169070080
+
+
+
+=== Network Adapter Information ===
+
+
+Description          : Marvell AQtion 10Gbit Network Adapter
+MACAddress           : 02:76:C6:01:3B:45
+IPAddress            : {192.168.50.208, fe80::520a:68b2:3e47:7e68}
+DefaultIPGateway     : {192.168.50.1}
+DNSDomain            : 
+DNSHostName          : KernelOS-PC
+DNSServerSearchOrder : {192.168.50.1}
+
+
+
+
+=== Installed Software Information ===
+
+Name                                                           Version        Vendor                InstallDate
+----                                                           -------        ------                -----------
+Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810    14.40.33810    Microsoft Corporation 20241205   
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219    10.0.40219     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2005 Redistributable (x64)                8.0.61000      Microsoft Corporation 20241205   
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664     12.0.40664     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219    10.0.40219     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664     12.0.40664     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 Microsoft Corporation 20241205   
+Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 Microsoft Corporation 20241205   
+Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030  11.0.61030     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33810 14.40.33810    Microsoft Corporation 20241205   
+Google Update Helper                                           1.3.36.51      Google LLC            20241205   
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33810    14.40.33810    Microsoft Corporation 20241205   
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664  12.0.40664     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030  11.0.61030     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2005 Redistributable                      8.0.61001      Microsoft Corporation 20241205   
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030     11.0.61030     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664  12.0.40664     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030     11.0.61030     Microsoft Corporation 20241205   
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33810 14.40.33810    Microsoft Corporation 20241205   
+
+
+
+=== Running Processes Information ===
+
+Name                          Id        CPU StartTime             
+----                          --        --- ---------             
+ApplicationFrameHost        8180   0.234375 12/5/2024 2:15:09 AM  
+audiosvchost                2220   0.015625 12/4/2024 9:54:09 PM  
+audiosvchost                2328   1.078125 12/4/2024 9:54:10 PM  
+CefSharp.BrowserSubprocess  6468    0.34375 12/4/2024 9:54:24 PM  
+CefSharp.BrowserSubprocess  6676   0.109375 12/4/2024 9:54:25 PM  
+CefSharp.BrowserSubprocess  7188          0 12/4/2024 9:54:27 PM  
+CefSharp.BrowserSubprocess  7224    0.03125 12/4/2024 9:54:27 PM  
+CefSharp.BrowserSubprocess  7232  10.390625 12/4/2024 9:54:27 PM  
+chrome                      1872   0.203125 12/15/2024 11:18:10 AM
+chrome                      3028   0.203125 12/15/2024 11:22:37 AM
+chrome                      3148   35.15625 12/15/2024 4:13:27 AM 
+chrome                      4676   30.03125 12/15/2024 4:13:22 AM 
+chrome                      5032 169.703125 12/15/2024 4:13:24 AM 
+chrome                      7200   4.140625 12/15/2024 4:13:21 AM 
+chrome                      8428   0.203125 12/15/2024 11:19:04 AM
+chrome                      8636   0.015625 12/17/2024 11:49:43 PM
+chrome                      9004     0.9375 12/15/2024 11:32:36 AM
+chrome                     10008   0.703125 12/15/2024 11:32:49 AM
+chrome                     10152   2.359375 12/18/2024 5:41:15 AM 
+chrome                     10472    0.15625 12/18/2024 2:00:31 PM 
+chrome                     10752   0.265625 12/15/2024 9:19:12 AM 
+chrome                     10932  15.078125 12/15/2024 4:54:07 AM 
+chrome                     11160      0.125 12/15/2024 11:18:16 AM
+chrome                     11836   81.03125 12/15/2024 4:13:21 AM 
+chrome                     12084   0.515625 12/15/2024 4:13:22 AM 
+chrome                     12156   0.171875 12/16/2024 4:09:19 AM 
+chrome                     12452   6.984375 12/17/2024 11:49:47 PM
+chrome                     12844   0.078125 12/15/2024 7:53:33 AM 
+chrome                     13156    0.21875 12/15/2024 9:19:24 AM 
+chrome                     13300   34.78125 12/15/2024 6:39:05 AM 
+chrome                     13388  22.671875 12/15/2024 4:19:29 AM 
+chrome                     13424   0.234375 12/16/2024 4:29:46 AM 
+chrome                     13492   0.109375 12/15/2024 4:54:13 AM 
+chrome                     13788  50.609375 12/17/2024 4:44:13 AM 
+chrome                     13916   1.515625 12/15/2024 4:13:27 AM 
+chrome                     14880   1.890625 12/18/2024 12:19:25 PM
+chrome                     15740   0.109375 12/15/2024 9:18:33 AM 
+chrome                     16232   0.546875 12/15/2024 4:13:23 AM 
+chrome                     16268          0 12/18/2024 1:44:43 PM 
+chrome                     16616  47.796875 12/15/2024 7:11:25 AM 
+chrome                     17280 134.578125 12/15/2024 4:13:22 AM 
+chrome                     17316          0 12/15/2024 4:13:23 AM 
+cleanmgr                   13464          0 12/18/2024 1:54:52 PM 
+conhost                    11852   0.015625 12/18/2024 1:51:59 PM 
+CortexLauncherService       3744          0 12/4/2024 9:54:12 PM  
+csrss                        908    2.15625 12/4/2024 9:54:07 PM  
+csrss                        984   0.171875 12/4/2024 9:54:06 PM  
+ctfmon                      6912    0.96875 12/4/2024 9:54:18 PM  
+dasHost                    17052   0.046875 12/15/2024 4:46:29 AM 
+DismHost                    8304          0 12/18/2024 1:54:52 PM 
+dllhost                     4436          0 12/4/2024 9:54:22 PM  
+dllhost                     7108          0 12/4/2024 9:54:18 PM  
+dllhost                    17076          0 12/15/2024 4:46:29 AM 
+dwm                         1592 544.765625 12/4/2024 9:54:09 PM  
+explorer                    6036   5.453125 12/4/2024 9:54:16 PM  
+fontdrvhost                 1312   0.015625 12/4/2024 9:54:08 PM  
+fontdrvhost                 1320          0 12/4/2024 9:54:08 PM  
+GameManagerService3         3792   1.765625 12/4/2024 9:54:12 PM  
+Idle                           0                                  
+jhi_service                16224          0 12/18/2024 1:52:45 PM 
+lsass                       1084    1.53125 12/4/2024 9:54:08 PM  
+MoUsoCoreWorker             1532   4.578125 12/4/2024 11:42:51 PM 
+msiexec                    12332          0 12/18/2024 2:02:17 PM 
+NVDisplay.Container         1940 1126.53125 12/4/2024 9:54:09 PM  
+NVDisplay.Container         2692   0.203125 12/4/2024 9:54:10 PM  
+OpenConsole                16524          0 12/18/2024 2:00:33 PM 
+powershell                 11308    0.71875 12/18/2024 1:51:59 PM 
+Razer Central               5508   2.703125 12/4/2024 9:54:23 PM  
+RazerCentralService         3772     1.0625 12/4/2024 9:54:12 PM  
+RazerCortex                 2776 234.265625 12/4/2024 9:54:22 PM  
+Registry                     216    0.21875 12/4/2024 9:54:00 PM  
+RstMwService                3756          0 12/4/2024 9:54:12 PM  
+RtkBtManServ                3736    0.03125 12/4/2024 9:54:12 PM  
+RuntimeBroker               1420     1.1875 12/4/2024 9:57:09 PM  
+RuntimeBroker               6116   0.015625 12/4/2024 9:54:17 PM  
+RuntimeBroker               6224   1.578125 12/4/2024 9:54:17 PM  
+SearchHost                  5496    0.09375 12/4/2024 9:54:17 PM  
+services                    1056   0.828125 12/4/2024 9:54:08 PM  
+ShellExperienceHost         9464      0.125 12/4/2024 9:57:09 PM  
+sihost                      5324      0.625 12/4/2024 9:54:15 PM  
+smss                         640    0.09375 12/4/2024 9:54:03 PM  
+StartMenuExperienceHost     5488   0.046875 12/4/2024 9:54:17 PM  
+svchost                     1292     4.4375 12/4/2024 9:54:08 PM  
+svchost                     1412        3.5 12/4/2024 9:54:09 PM  
+svchost                     1520  21.109375 12/4/2024 9:54:09 PM  
+svchost                     1604   0.109375 12/4/2024 9:54:09 PM  
+svchost                     1696          7 12/4/2024 9:54:09 PM  
+svchost                     1728     1.1875 12/4/2024 9:54:09 PM  
+svchost                     1896   0.046875 12/4/2024 9:54:09 PM  
+svchost                     1992          0 12/4/2024 9:54:09 PM  
+svchost                     2228   0.328125 12/4/2024 9:54:09 PM  
+svchost                     2372   1.140625 12/4/2024 9:54:10 PM  
+svchost                     2380          0 12/4/2024 9:54:10 PM  
+svchost                     2452   1.515625 12/4/2024 9:54:10 PM  
+svchost                     2496          0 12/18/2024 1:52:20 PM 
+svchost                     2632   0.453125 12/4/2024 9:54:10 PM  
+svchost                     2948          0 12/4/2024 9:54:11 PM  
+svchost                     3316   1.515625 12/4/2024 9:54:11 PM  
+svchost                     3352   0.078125 12/4/2024 9:54:11 PM  
+svchost                     3380   0.015625 12/4/2024 9:54:11 PM  
+svchost                     3608   0.046875 12/4/2024 9:59:18 PM  
+svchost                     3728   0.609375 12/4/2024 9:54:12 PM  
+svchost                     5340   0.109375 12/4/2024 9:54:15 PM  
+svchost                     5348   0.015625 12/4/2024 9:59:19 PM  
+svchost                     5644          0 12/4/2024 9:54:17 PM  
+svchost                     6060          0 12/4/2024 9:55:02 PM  
+svchost                     6328   0.015625 12/4/2024 9:54:17 PM  
+svchost                     9544          0 12/4/2024 9:54:50 PM  
+svchost                    10068   0.015625 12/4/2024 9:59:18 PM  
+svchost                    12132          0 12/5/2024 6:25:00 PM  
+svchost                    15348   1.046875 12/18/2024 1:57:41 PM 
+svchost                    16180    0.03125 12/18/2024 1:52:27 PM 
+System                         4  337.34375 12/4/2024 9:54:03 PM  
+SystemSettingsBroker        2608   1.578125 12/4/2024 9:59:18 PM  
+taskhostw                   2744          0 12/5/2024 5:09:15 AM  
+taskhostw                   5792   0.046875 12/4/2024 9:54:16 PM  
+TiWorker                    4572   0.015625 12/18/2024 1:52:16 PM 
+TrustedInstaller           14244          0 12/18/2024 1:52:16 PM 
+wininit                      840   0.015625 12/4/2024 9:54:07 PM  
+winlogon                    1160          0 12/4/2024 9:54:08 PM  
+WmiPrvSE                    4592     0.0625 12/18/2024 1:57:36 PM 
+WmiPrvSE                    7944          0 12/18/2024 2:02:17 PM 
+WMIRegistrationService     14412          0 12/18/2024 1:52:46 PM 
+WUDFHost                     832   5.796875 12/4/2024 9:54:09 PM  
+
+
+
+=== Environment Variables ===
+
+Key                             Value                                                                                  
+---                             -----                                                                                  
+ALLUSERSPROFILE                 C:\ProgramData                                                                         
+APPDATA                         C:\Users\Administrator\AppData\Roaming                                                 
+CommonProgramFiles              C:\Program Files\Common Files                                                          
+CommonProgramFiles(x86)         C:\Program Files (x86)\Common Files                                                    
+CommonProgramW6432              C:\Program Files\Common Files                                                          
+COMPUTERNAME                    KERNELOS-PC                                                                            
+ComSpec                         C:\Windows\system32\cmd.exe                                                            
+DriverData                      C:\Windows\System32\Drivers\DriverData                                                 
+EFC_6036                        1                                                                                      
+FPS_BROWSER_APP_PROFILE_STRING  Internet Explorer                                                                      
+FPS_BROWSER_USER_PROFILE_STRING Default                                                                                
+HOMEDRIVE                       C:                                                                                     
+HOMEPATH                        \Users\Administrator                                                                   
+LOCALAPPDATA                    C:\Users\Administrator\AppData\Local                                                   
+LOGONSERVER                     \\KERNELOS-PC                                                                          
+NUMBER_OF_PROCESSORS            16                                                                                     
+OS                              Windows_NT                                                                             
+Path                            C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsP...
+PATHEXT                         .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL                             
+PROCESSOR_ARCHITECTURE          AMD64                                                                                  
+PROCESSOR_IDENTIFIER            Intel64 Family 6 Model 165 Stepping 5, GenuineIntel                                    
+PROCESSOR_LEVEL                 6                                                                                      
+PROCESSOR_REVISION              a505                                                                                   
+ProgramData                     C:\ProgramData                                                                         
+ProgramFiles                    C:\Program Files                                                                       
+ProgramFiles(x86)               C:\Program Files (x86)                                                                 
+ProgramW6432                    C:\Program Files                                                                       
+PSModulePath                    C:\Users\Administrator\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsP...
+PUBLIC                          C:\Users\Public                                                                        
+SESSIONNAME                     Console                                                                                
+SystemDrive                     C:                                                                                     
+SystemRoot                      C:\Windows                                                                             
+TEMP                            C:\Users\ADMINI~1\AppData\Local\Temp                                                   
+TMP                             C:\Users\ADMINI~1\AppData\Local\Temp                                                   
+USERDOMAIN                      KERNELOS-PC                                                                            
+USERDOMAIN_ROAMINGPROFILE       KERNELOS-PC                                                                            
+USERNAME                        Administrator                                                                          
+USERPROFILE                     C:\Users\Administrator                                                                 
+windir                          C:\Windows                                                                             
+
+
+
